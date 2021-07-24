@@ -19,34 +19,64 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Home
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
                 to="/about"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                About
+                Бидний тухай
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
-                exact
-                to="/blog"
+              <a
+                href="https://shoegallery.mn/"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+                style={{ fontWeight: "bold" }}
+              >
+                Онлайн дэлгүүрээр зочлох
+              </a>
+            </li>
+            <NavLink
+              exact
+              to="/brans"
+              activeClassName="active"
+              className="nav-links"
+              onClick={handleClick}
+            >
+              Манай брэндүүд
+            </NavLink>
+
+            <li className="nav-item">
+              <a
+                href="https://shoegallery.mn/"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Blog
+                Хамтын ажиллагаа
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                href="https://shoegallery.mn/"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Санал хүсэлт
+              </a>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/location"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Дэлгүүрийн хаяг
               </NavLink>
             </li>
             <li className="nav-item">
@@ -57,7 +87,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Contact Us
+                Бидэнтэй холбогдох
               </NavLink>
             </li>
           </ul>
