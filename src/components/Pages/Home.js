@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { isAndroid, isIOS } from "react-device-detect";
+import React from "react";
+import { isIOS } from "react-device-detect";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 export const Home = () => {
   const facebook_id = "161212127881483";
-  const instagram_url = "https://www.instagram.com/shoegallery_mongolia/";
+
   var facebook_url;
 
   if (isIOS === true) {
