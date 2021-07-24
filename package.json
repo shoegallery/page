@@ -1,6 +1,6 @@
 {
   "name": "pagelast",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
@@ -11,6 +11,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.0",
+    "date-fns": "^2.23.0",
     "mobile-detect": "^1.4.5",
     "react": "^17.0.2",
     "react-device-detect": "^1.17.0",
