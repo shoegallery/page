@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { isAndroid, isIOS } from "react-device-detect";
-
+import FacebookIcon from "@material-ui/icons/Facebook";
+import InstagramIcon from "@material-ui/icons/Instagram";
 export const Home = () => {
+  const facebook_id = "161212127881483";
+  const instagram_url = "https://www.instagram.com/shoegallery_mongolia/";
+  var facebook_url;
+
+  if (isIOS === true) {
+    facebook_url = `fb://profile?id=${facebook_id}`;
+  } else {
+    facebook_url = `fb://page?id=${facebook_id}`;
+  }
+  console.log(facebook_url);
   return (
     <div
       style={{
@@ -11,8 +22,21 @@ export const Home = () => {
         paddingTop: "30%",
       }}
     >
-      <div style={{ flex: 1, font: "message-box" }}>
-        <h4>Та илүү ихийг мэдэхийг хүсвэл биднийг дагаарай</h4>
+      <div
+        style={{
+          flex: 1,
+          fontSize: 50,
+          justifyItems: "center",
+          alignItems: "center",
+        }}
+      >
+        <h4 style={{ padding: 50 }}>Follow US</h4>
+        <div>
+          <a href={facebook_url}>
+            <FacebookIcon style={{ fontSize: 100 }} />
+          </a>
+          <InstagramIcon style={{ fontSize: 100 }} />
+        </div>
       </div>
     </div>
   );
