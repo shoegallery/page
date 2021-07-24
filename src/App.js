@@ -14,10 +14,23 @@ function App() {
 
         <div className="pages">
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/blog" component={Blog} />
-            <Route path="/contact" component={Contact} />
+            <Route
+              exact
+              path="https://shoegallery.github.io/pagelast/"
+              component={Home}
+            />
+            <Route
+              path="https://shoegallery.github.io/pagelast/about"
+              component={About}
+            />
+            <Route
+              path="https://shoegallery.github.io/pagelast/blog"
+              component={Blog}
+            />
+            <Route
+              path="https://shoegallery.github.io/pagelast/contact"
+              component={Contact}
+            />
           </Switch>
         </div>
       </Router>
