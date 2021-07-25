@@ -4,7 +4,7 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 export const Home = () => {
   const facebook_id = "161212127881483";
-
+  const instagram_url = "https://www.instagram.com/shoegallery_mongolia/";
   var facebook_url;
 
   if (isIOS === true) {
@@ -35,7 +35,9 @@ export const Home = () => {
           <a href={facebook_url}>
             <FacebookIcon style={{ fontSize: 100 }} />
           </a>
-          <InstagramIcon style={{ fontSize: 100 }} />
+          <a href={instagram_url}>
+            <InstagramIcon style={{ fontSize: 100 }} />
+          </a>
         </div>
       </div>
     </div>
