@@ -10,7 +10,7 @@ export const Home = () => {
   if (isIOS === true) {
     facebook_url = `fb://profile?id=${facebook_id}`;
   } else {
-    facebook_url = `fb://page?id=${facebook_id}`;
+    facebook_url = `fb://page/${facebook_id}`;
   }
   console.log(facebook_url);
   return (
