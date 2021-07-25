@@ -12,7 +12,7 @@ export const Home = () => {
   } else {
     facebook_url = `fb://page/${facebook_id}`;
   }
-  console.log(facebook_url);
+  console.log(instagram_url);
   return (
     <div
       style={{
@@ -32,12 +32,16 @@ export const Home = () => {
       >
         <h4 style={{ padding: 50 }}>Follow US</h4>
         <div>
-          <a href={facebook_url}>
-            <FacebookIcon style={{ fontSize: 100 }} />
-          </a>
-          <a href={instagram_url}>
-            <InstagramIcon style={{ fontSize: 100 }} />
-          </a>
+          <div>
+            <a href={facebook_url}>
+              <FacebookIcon style={{ fontSize: 100 }} />
+            </a>
+          </div>
+          <div>
+            <a href={instagram_url}>
+              <InstagramIcon style={{ fontSize: 100 }} />
+            </a>
+          </div>
         </div>
       </div>
     </div>
