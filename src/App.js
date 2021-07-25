@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -10,7 +11,7 @@ import { Location } from "./components/Pages/Locations";
 import { Brands } from "./components/Pages/Brands";
 function App() {
   return (
-    <>
+    <div>
       <Router>
         <NavBar />
         <div className="pages">
@@ -25,7 +26,7 @@ function App() {
           </Switch>
         </div>
       </Router>
-    </>
+    </div>
   );
 }
 

@@ -19,7 +19,7 @@ export const Home = () => {
         display: "flex",
         flexDirection: "column",
         maxwidth: "100%",
-        paddingTop: "30%",
+        paddingTop: "20%",
       }}
     >
       <div
@@ -31,17 +31,20 @@ export const Home = () => {
         }}
       >
         <h4 style={{ padding: 50 }}>Follow US</h4>
-        <div>
-          <div>
-            <a href={facebook_url}>
-              <FacebookIcon style={{ fontSize: 100 }} />
-            </a>
-          </div>
-          <div>
-            <a href={instagram_url}>
-              <InstagramIcon style={{ fontSize: 100 }} />
-            </a>
-          </div>
+        <div
+          style={{
+            display: "inline",
+            alignItems: "center",
+            justifyItems: "center",
+          }}
+        >
+          <a href={facebook_url}>
+            <FacebookIcon className="active" style={{ fontSize: 100 }} />
+          </a>
+
+          <a href={instagram_url}>
+            <InstagramIcon className="active" style={{ fontSize: 100 }} />
+          </a>
         </div>
       </div>
     </div>
