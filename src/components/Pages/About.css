@@ -1,0 +1,10 @@
+.about-text p {
+  word-break: break-word;
+  width: 80%;
+  display: flex;
+  font-size: 1.3rem;
+  padding-right: 10%;
+  padding-left: 10%;
+  align-content: center;
+  margin: 0;
+}
