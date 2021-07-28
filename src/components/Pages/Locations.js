@@ -49,7 +49,7 @@ export const Location = () => {
       desc: "СБД, 4 хороо, Улаанбаатар их дэлгүүр 5 давхар BASCONI",
     },
   ];
-  console.log(data_location);
+
   return (
     <div style={{ position: "relative", marginTop: "0%" }}>
       <p style={{ fontSize: "1.5rem", padding: "1rem", fontWeight: "bolder" }}>
