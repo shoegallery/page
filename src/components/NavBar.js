@@ -60,13 +60,14 @@ function NavBar() {
               </li>
 
               <li className="nav-item">
-                <a
-                  href="https://shoegallery.mn/"
+                <NavLink
+                  exact
+                  to="/partners"
                   className="nav-links"
                   onClick={handleClick}
                 >
                   Хамтын ажиллагаа
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
                 <a

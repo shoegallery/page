@@ -120,6 +120,8 @@
 }
 
 .nav-icon {
+  justify-content: center;
+  align-items: center;
   display: block;
   position: absolute;
   top: 0;
