@@ -1,0 +1,89 @@
+.shoe-brands {
+  padding-top: 0.5rem;
+  background-color: #ececec;
+  align-items: center;
+  width: 100%;
+}
+.brands {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.brands .brand-list {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+
+html a,
+body a,
+html a:hover,
+body a:hover,
+html a:focus,
+body a:focus,
+html a:visited,
+body a:visited {
+  color: rgb(68, 68, 68);
+  outline: none;
+  text-decoration: none !important;
+}
+.brands .brand {
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 8px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  border-radius: 4px;
+  margin-bottom: 10px;
+
+  background-color: #f5f6fa;
+  box-shadow: rgb(0 0 0 / 9%) 0px 3px 6px;
+}
+.brands .brand .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 90px;
+  margin-right: 10px;
+}
+.brands .brand .image img {
+  width: 100%;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.brands .brand .meta {
+  flex: 1 1 100%;
+  display: inline-grid;
+}
+.brands .brand .arrow {
+  width: 30px;
+  height: 30px;
+  flex: 0 1 30px;
+  margin-left: auto;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  transition: all 200ms ease-in-out 0s;
+}
+.brands .brand .meta h5 {
+  color: rgb(36, 36, 36);
+  font-size: 20px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 0px;
+}
+.brands .brand .meta h6 {
+  color: rgb(136, 136, 136);
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  text-transform: lowercase;
+}

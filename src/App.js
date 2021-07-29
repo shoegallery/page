@@ -9,6 +9,7 @@ import { Contact } from "./components/Pages/Contact";
 import { Partners } from "./components/Pages/Partners";
 import { Location } from "./components/Pages/Locations";
 import { Brands } from "./components/Pages/Brands";
+import { Popular } from "./components/Pages/Popular";
 function App() {
   return (
     <div>
@@ -23,6 +24,7 @@ function App() {
             <Route path="/partners" component={Partners} />
             <Route path="/location" component={Location} />
             <Route path="/brands" component={Brands} />
+            <Route path="/popular" component={Popular} />
           </Switch>
         </div>
       </Router>

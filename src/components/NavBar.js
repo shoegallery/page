@@ -51,6 +51,16 @@ function NavBar() {
               <li className="nav-item">
                 <NavLink
                   exact
+                  to="/popular"
+                  className="nav-links"
+                  onClick={handleClick}
+                >
+                  Онцлох загвар
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  exact
                   to="/brands"
                   className="nav-links"
                   onClick={handleClick}
