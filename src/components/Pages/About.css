@@ -1,0 +1,16 @@
+.article-css p {
+  padding-top: 20px;
+  word-break: break-word;
+  text-align: justify;
+  line-height: 1.8rem;
+  width: 85%;
+  font-weight: normal;
+  font-size: 1.3rem;
+  padding-right: 7.5%;
+  padding-left: 7.5%;
+  align-content: center;
+  margin: 0;
+}
+.article-css {
+  padding: 5%;
+}
