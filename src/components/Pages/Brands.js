@@ -101,7 +101,7 @@ export const Brands = () => {
                 <div>
                   <div className="brand">
                     <div className="image">
-                      <Img src={el.img} alt={el.name} crossorigin="anonymous" />
+                      <Img src={el.img} />
                     </div>
                     <div className="meta">
                       <div>
