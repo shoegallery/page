@@ -48,10 +48,10 @@ body a:visited {
   flex: 0 0 90px;
   margin-right: 10px;
 }
-.brands .brand .image Img {
+.brands .brand .image img {
   width: 100%;
 }
-Img {
+img {
   vertical-align: middle;
   border-style: none;
 }
