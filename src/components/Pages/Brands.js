@@ -1,5 +1,7 @@
 import React from "react";
 import "./Brands.css";
+import { Img } from "react-image";
+
 export const Brands = () => {
   const brands_data = [
     {
@@ -99,7 +101,7 @@ export const Brands = () => {
                 <div>
                   <div className="brand">
                     <div className="image">
-                      <img src={el.img} alt={el.name} />
+                      <Img src={el.img} alt={el.name} crossorigin="anonymous" />
                     </div>
                     <div className="meta">
                       <div>
